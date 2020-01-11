@@ -2,6 +2,7 @@
 public class Event {
 
 	private int time;
+	private String date;
 	private String device;
 	private String ID;
 	private String name;
@@ -18,9 +19,11 @@ public class Event {
 	public int getTime() {
 		return this.time;
 	}
-	public String GetEpocTime(int Epoctime) {
-		
+	
+	public void ConvertTime(int Epochtime) {
+		//this.date = new java.text.SimpleDateFormat("MM/dd/yyyy HH:mm:ss").format(new java.util.Date (epoch*1000));
 	}
+	
 	public String getDevice() {
 		return this.device;
 	}
