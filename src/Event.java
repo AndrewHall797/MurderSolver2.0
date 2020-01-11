@@ -18,9 +18,13 @@ public class Event {
 	public int getTime() {
 		return this.time;
 	}
-	public String GetEpocTime(int Epoctime) {
+	
+	public String GetEpochTime(int Epochtime) {
 		
+		
+		return EpocTime
 	}
+	
 	public String getDevice() {
 		return this.device;
 	}
