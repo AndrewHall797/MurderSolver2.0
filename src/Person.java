@@ -11,4 +11,13 @@ public class Person {
 		this.name = name;
 		this.eventList = new ArrayList<Event>();
 	}
+	
+	public void addEvent(Event e) {
+		eventList.add(e);
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
 }
