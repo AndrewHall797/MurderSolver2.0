@@ -2,7 +2,7 @@
 public class Event {
 
 	private int time;
-	private int date;
+	private String date;
 	private String device;
 	private String ID;
 	private String name;
@@ -20,9 +20,6 @@ public class Event {
 		return this.time;
 	}
 	
-	/*Returns an Int value who represents the Epoch time in current time
-	 * 
-	 */
 	public void ConvertTime(int Epochtime) {
 		this.date = new java.text.SimpleDateFormat("MM/dd/yyyy HH:mm:ss").format(new java.util.Date (epoch*1000));
 	}
