@@ -14,4 +14,25 @@ public class Event {
 		this.name = name;
 		this.event = event;
 	}
+	
+	public int getTime() {
+		return this.time;
+	}
+	
+	public String getDevice() {
+		return this.device;
+	}
+	
+	public String getID() {
+		return this.ID;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	
+	public String toString() {
+		return event;
+	}
 }

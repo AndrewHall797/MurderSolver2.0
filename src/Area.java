@@ -12,4 +12,9 @@ public class Area {
 		devices = new ArrayList<String>();
 		eventList = new ArrayList<Event>();
 	}
+	
+	public void addEvent(Event e) {
+		eventList.add(e);
+	}
+	
 }
