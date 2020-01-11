@@ -21,7 +21,7 @@ public class Event {
 	}
 	
 	public void ConvertTime(int Epochtime) {
-		this.date = new java.text.SimpleDateFormat("MM/dd/yyyy HH:mm:ss").format(new java.util.Date (epoch*1000));
+		//this.date = new java.text.SimpleDateFormat("MM/dd/yyyy HH:mm:ss").format(new java.util.Date (epoch*1000));
 	}
 	
 	public String getDevice() {
